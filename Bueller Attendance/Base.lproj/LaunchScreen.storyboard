@@ -30,9 +30,13 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="rawImage.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="pCK-PZ-t0g">
-                                <rect key="frame" x="18" y="254" width="341" height="256"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="rawImage.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="pCK-PZ-t0g">
+                                <rect key="frame" x="17" y="254" width="341" height="256"/>
                                 <color key="backgroundColor" red="0.17231157422065735" green="0.18043684959411621" blue="0.18045583367347717" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="256" id="FKq-4N-xKA"/>
+                                    <constraint firstAttribute="width" constant="341" id="hfp-29-j0U"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.2461705207824707" green="0.26964154839515686" blue="0.32363671064376831" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
